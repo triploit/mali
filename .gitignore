@@ -2,3 +2,4 @@ bin/boot/kernel.bin
 bin/kernel
 bin/kernel.iso
 bin/*.o
+.vscode
