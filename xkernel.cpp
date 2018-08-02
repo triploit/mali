@@ -4,5 +4,5 @@
 
 extern "C" void xkernel()
 {
-    Mali::screen << "Willkommen im C++-TestKernel! " << Mali::std::itoa(12, 10);
+    Mali::screen << "Hallo Welt: " << Mali::std::itoa(12, 10) << " " << -12;
 }
