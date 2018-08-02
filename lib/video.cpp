@@ -1,7 +1,5 @@
 #include "video.hpp"
 
-typedef unsigned int size_t;
-
 namespace Mali
 {
     Video screen;
@@ -27,6 +25,17 @@ namespace Mali
         while (*s != '\0')
             putChar(*s++);
 
+
+        setCursor(posX, posY);
+        return *this;
+    }
+
+    Video& Video::operator<<(int i)
+    {
+        char* s = std::itoa(i, 10);
+
+        while (*s != '\0')
+            putChar(*s++);
 
         setCursor(posX, posY);
         return *this;

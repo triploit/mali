@@ -52,6 +52,7 @@ namespace Mali
         Video();
 
         Video& operator << (const char* s);
+        Video& operator << (int i);
         Video& operator << (color::type color);
         Video& operator << (const background& color);
 
