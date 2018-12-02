@@ -1,4 +1,4 @@
-# MaliOS - A bad operating system.
+# MaliOS - A bad operating system
 
 This is only some testing, not really an operating system. It will be developed, because of fun.
 
@@ -7,7 +7,7 @@ and: https://wiki.osdev.org/Bare_Bones#Writing_a_kernel_in_C.2B.2B (English)
 
 ## Dependencies
 
-* grub
-* xorriso
-* gcc
-* g++
+  * grub
+  * xorriso
+  * gcc
+  * g++
