@@ -12,6 +12,7 @@ and: https://wiki.osdev.org/Bare_Bones#Writing_a_kernel_in_C.2B.2B (English)
   * gcc
   * g++
   * qemu
+  * mtools
 
 ## Installing dependencies
 
@@ -23,6 +24,7 @@ apt-get install g++ binutils # g++ and make
 apt-get install nasm # nasm
 apt-get install xorriso # xorriso
 apt-get install grub2 # grub
+apt-get install mtools # mtools for grub
 ```
 
 or everything in one command: `apt-get install qemu-system-x86 binutils g++ nasm xorriso`
@@ -35,6 +37,7 @@ pacman -S gcc make # g++ and make
 pacman -S nasm # nasm
 pacman -S xorriso # xorriso
 pacman -S grub # grub
+pacman -S mtools # mtools for grub
 ```
 
 or everything in one command: `pacman -S qemu gcc make nasm xorriso grub`
