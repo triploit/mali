@@ -27,7 +27,7 @@ apt-get install grub2 # grub
 apt-get install mtools # mtools for grub
 ```
 
-or everything in one command: `apt-get install qemu-system-x86 binutils g++ nasm xorriso`
+or everything in one command: `apt-get install qemu-system-x86 binutils g++ nasm xorriso mtools`
 
 ### Arch Linux, Manjaro Linux
 
@@ -40,7 +40,7 @@ pacman -S grub # grub
 pacman -S mtools # mtools for grub
 ```
 
-or everything in one command: `pacman -S qemu gcc make nasm xorriso grub`
+or everything in one command: `pacman -S qemu gcc make nasm xorriso grub mtools`
 
 ## Compiling and Testing
 
